@@ -1,84 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F-Style — Главная</title>
-
-    <!--styles-->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+  <title>THE WINE SHOP</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="master.css">
+  <link href="https://fonts.googleapis.com/css?family=Smythe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 </head>
 <body>
-    <div class="home">
-
-        <header>
-            <div class="wrapper d-flex">
-                <div id="logo">
-                    <a href="#" class="d-flex">
-                        <img src="img/.png" alt="">
-                        <h3>F-Style</h3>
-                    </a>
-                </div>
-                <nav>
-                    <a href="#" class="active">Весна</a>
-                    <a href="#">Мужская одежда</a>
-                    <a href="#">Женская одежда</a>
-                    <a href="#">Детская одежда</a>
-                    <a href="#">Онлайн-консультант</a>
-                </nav>
-                <div class="timetable">Пн-Сб, 8:00-21:00</div>
-                <div class=phonenumber>+ 38 (055) 455-21-91</div>
-                <button>Заказать звонок</button>
-                <div class="shop">
-                    <div class="view d-flex">
-                        <div class="card">
-                            <img src="img/.png" alt="card">
-                            <div class="number">1</div>
+      <div class="container">
+            <div class="outline"></div>
+            <div class="logo">Smythe</div>
+            <div class="menu">
+                  <ion-icon name="menu"></ion-icon>
+            </div>
+            <div class="title">
+                  THE WINE SHOP
+            </div>
+            <div class="tagline">
+                  As much character as the people who make them.
+            </div>
+            <div class="morewine">
+                  <button>Open Up</button>
+            </div>
+      </div>
+      <div class="wines">
+            <div id="wrap">
+                  <a href="#" class="block">
+                        <div class="product one">
+                              <img src="01.png" alt="">
+                              <div class="txt">
+                                    <h1>Smythe Wheat</h1>
+                                    <p>Price : $40</p>
+                                    <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div>
+                              </div>
                         </div>
-                        <div class="sum">1499грн.</div>
-                        <div class="bottom">
-                            <img src="img/Path 1.png" alt="">
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product two">
+                              <img src="02.png" alt="">
+                              <div class="txt">
+                                    <h1>Smythe Mixology</h1>
+                                    <p>Price : $40</p>
+                                    <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div>
+                              </div>
                         </div>
-                    </div>  
-                    <div class="card-window"></div> 
-                </div>
-            </div>               
-        </header>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product three">
+                              <img src="03.png" alt="">
+                              <div class="txt">
+                                    <h1>Smythe Cherry</h1>
+                                    <p>Price : $40</p>
+                                    <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product four">
+                              <img src="04.png" alt="">
+                              <div class="txt">
+                                    <h1>Pepper</h1>
+                                    <p>Price : $40</p>
+                                    <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </a>
+            </div>
+            <a class="close-btn">close</a>
+      </div>
 
-        <div class="social-media">
+      <script type="text/javascript">
 
-        </div><!-- /social-media -->
-        <div class="content d-flex">
-            
-            <div class="offer">
-                <h1>Стильная и удобная 
-                    одежда на любой случай</h1>
-                <p>У нас собрана одежда из самых качественных материалов лучших брендов!
-                    Трудно определиться с выбором? Мы подготовили готовые образы и наборы
-                    специально для вас. Наслаждайтесь шопингом! </p>
-                <a href="#">Смотреть каталог</a>
-            </div><!-- /offer -->
-    
-            <div class="slider home-slider">
-                <div class="home-product">
-                    <div class="line"></div>
-                    <img src="img/bomj.png" alt="">
-                    <div class="offer-min">
-                        <p>Худи</p>
-                        <h3>B.O.M.J.</h3>
-                    </div>
-                </div>
-                <div class="triggers"></div>
-                <div class="slide">
-                    <img src="img/home-1.png" alt="">
-                </div>
-            </div><!-- /slider home-slider -->
+      $(document).ready(function() {
+            var docWidth = $('body').width(),
+            $wrap = $('#wrap'),
+            $images = $('#wrap .block'),
+            slidesWidth = $wrap.width();
 
-        </div><!-- /home-content -->
-        
-    </div><!-- /home -->
+            $(window).on('resize', function() {
+                  docWidth = $('body').width();
+                  slidesWidth = $wrap.width();
+            })
+
+            $(document).mousemove(function(e) {
+                  var mouseX = e.pageX,
+                  offset = mouseX / docWidth * slidesWidth - mouseX / 2;
+
+                  $images.css({
+                        '-wrbkit-transform' : 'translate3d(' + -offset + 'px,0,0)',
+                        'transform' : 'translate3d(' + -offset + 'px,0,0)'
+                  });
+            });
+      })
+
+      var t1 = new TimelineMax({paused: true});
+
+      TweenMax.from(".logo", 0.5, {
+            opacity: 0,
+            y: 10,
+            delay: 1
+      });
+
+      TweenMax.from(".menu", 0.5, {
+            opacity: 0,
+            y: 10,
+            delay: 1.2
+      });
+
+      TweenMax.from(".title", 3, {
+            opacity: 0,
+            delay: 1.4
+      });
+
+      TweenMax.from(".tagline", 3, {
+            opacity: 0,
+            delay: 1.6
+      });
+
+      TweenMax.from(".morewine", 0.5, {
+            opacity: 0,
+            y: 4,
+            delay: 1.8
+      });
+
+      t1.to(".wines", 1, {
+            autoAlpha: 1
+      });
+
+      t1.from(".one", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.1
+      },"-=1");
+
+      t1.from(".two", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.3
+      },"-=1");
+
+      t1.from(".three", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.5
+      },"-=1");
+
+      t1.from(".four", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.7
+      },"-=1");
+
+      t1.reverse();
+      $(document).on("click", ".morewine", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      $(document).on("click", "a", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      $(document).on("click", ".close-btn a", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      </script>
 </body>
 </html>
