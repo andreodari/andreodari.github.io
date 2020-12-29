@@ -1,91 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <title>THE WINE SHOP</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="master.css">
+  <link href="https://fonts.googleapis.com/css?family=Smythe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 </head>
 <body>
-    <main class="content js-content">
-  
-        <section class="block section-landing">
-          <figure class="item-parallax-media">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/luca-bravo-189272.jpg" alt="" />
-          </figure>
-          <div class="item-parallax-content flex-container">
-            <div class="landing-content centered-content">
-              <h1 class="head-large">We love Things</h1>
+      <div class="container">
+            <div class="outline"></div>
+            <div class="logo">Smythe</div>
+            <div class="menu">
+                  <ion-icon name="menu"></ion-icon>
             </div>
-          </div>
-        </section>
-        
-        <section class="block section-intro">
-          <div class="item-parallax-content flex-container">
-            <div class="centered-content">
-              <h2 class="head-small head-centered">Visibility</h2>
-              <p class="copy copy-white">
-              One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.
-              </p>
-              <p class="copy copy-white">
-        The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?" he thought.
-              </p>
+            <div class="title">
+                  THE WINE SHOP
             </div>
-          </div>
-        </section>
-        
-        <section class="block section-part">
-          <figure class="item-parallax-media">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/roberta-sorge-138285.jpg" alt="" />
-          </figure>
-          <div class="item-parallax-content flex-container">
-            <div class="centered-content">
-              <h1 class="head-large head-centered">Garden <br/>of Eden</h1>
-              <p class="copy copy-white">
-                One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.
-              </p>
+            <div class="tagline">
+                  As much character as the people who make them.
             </div>
-          </div>
-        </section>
-        
-        <section class="block">
-          <div class="item-parallax-content flex-container img-grid">
-            <figure class="img-gridItem type-right">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/andrew-branch-139678.jpg" alt="" />
-              <figcaption class="img-caption">
-                <h2 class="head-small">Free Soul</h2>
-                <p class="copy copy-white">
-                  Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle.
-                </p>
-              </figcaption>
-            </figure>
-            <figure class="img-gridItem type-left">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/peter-hershey-112799.jpg" alt="" />
-              <figcaption class="img-caption">
-                <h2 class="head-small">Free Mind</h2>
-                <p class="copy copy-white">
-                  A peep at some distant orb has power to raise and purify our thoughts like a strain of sacred music, or a noble picture, or a passage from the grander poets.
-                </p>
-              </figcaption>
-            </figure>
-          </div>
-        </section>
-        
-        <section class="block section-end">
-          <figure class="item-parallax-media">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/46992/noah-silliman-141979.jpg" alt="" />
-          </figure>
-          <div class="item-parallax-content flex-container">
-            <div class="landing-content centered-content">
-              <h1 class="head-large">Back to Basic</h1>
+            <div class="morewine">
+                  <button>Open Up</button>
             </div>
-          </div>
-        </section>
-        
-        <section class="custom-properties-ftw">
-          <h3 class="head-small head-centered">Yeah Custom Properties</h3>
-        </section>
-      </main>
-      <script src="index.js"></script>
+      </div>
+      <div class="wines">
+            <div id="wrap">
+                  <a href="#" class="block">
+                        <div class="product one">
+                              <img src="01.png" alt="">
+                              <div class="txt">
+                                    <h1>Smythe Wheat</h1>
+                                    <p>Price : $40</p>
+                                    <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product two">
+                              <img src="02.png" alt="">
+                              <div class="txt">
+                                    <h1>Smythe Mixology</h1>
+                                    <p>Price : $40</p>
+                                    <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product three">
+                              <img src="03.png" alt="">
+                              <div class="txt">
+                                    <h1>Smythe Cherry</h1>
+                                    <p>Price : $40</p>
+                                    <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product four">
+                              <img src="04.png" alt="">
+                              <div class="txt">
+                                    <h1>Pepper</h1>
+                                    <p>Price : $40</p>
+                                    <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </a>
+            </div>
+            <a class="close-btn">close</a>
+      </div>
+
+      <script type="text/javascript">
+
+      $(document).ready(function() {
+            var docWidth = $('body').width(),
+            $wrap = $('#wrap'),
+            $images = $('#wrap .block'),
+            slidesWidth = $wrap.width();
+
+            $(window).on('resize', function() {
+                  docWidth = $('body').width();
+                  slidesWidth = $wrap.width();
+            })
+
+            $(document).mousemove(function(e) {
+                  var mouseX = e.pageX,
+                  offset = mouseX / docWidth * slidesWidth - mouseX / 2;
+
+                  $images.css({
+                        '-wrbkit-transform' : 'translate3d(' + -offset + 'px,0,0)',
+                        'transform' : 'translate3d(' + -offset + 'px,0,0)'
+                  });
+            });
+      })
+
+      var t1 = new TimelineMax({paused: true});
+
+      TweenMax.from(".logo", 0.5, {
+            opacity: 0,
+            y: 10,
+            delay: 1
+      });
+
+      TweenMax.from(".menu", 0.5, {
+            opacity: 0,
+            y: 10,
+            delay: 1.2
+      });
+
+      TweenMax.from(".title", 3, {
+            opacity: 0,
+            delay: 1.4
+      });
+
+      TweenMax.from(".tagline", 3, {
+            opacity: 0,
+            delay: 1.6
+      });
+
+      TweenMax.from(".morewine", 0.5, {
+            opacity: 0,
+            y: 4,
+            delay: 1.8
+      });
+
+      t1.to(".wines", 1, {
+            autoAlpha: 1
+      });
+
+      t1.from(".one", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.1
+      },"-=1");
+
+      t1.from(".two", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.3
+      },"-=1");
+
+      t1.from(".three", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.5
+      },"-=1");
+
+      t1.from(".four", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.7
+      },"-=1");
+
+      t1.reverse();
+      $(document).on("click", ".morewine", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      $(document).on("click", "a", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      $(document).on("click", ".close-btn a", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      </script>
 </body>
 </html>
