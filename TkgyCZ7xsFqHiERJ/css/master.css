@@ -1,16 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 
-@font-face {
-    font-family: Segoe UI; /* Гарнитура шрифта */
-    src: url(../fonts/segoeui.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeui.eot); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeui.otf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeui.svg); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeui.woff); /* Путь к файлу со шрифтом */
 
-    
-   }
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('fonts/segoeui.eot');
+	src: local('☺'), url('fonts/segoeui.woff') format('woff'), url('fonts/segoeui.ttf') format('truetype'), url('fonts/segoeui.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('fonts/segoeuib.eot');
+	src: local('☺'), url('fonts/segoeuib.woff') format('woff'), url('fonts/segoeuib.ttf') format('truetype'), url('fonts/segoeuib.svg') format('svg');
+	font-weight: 700;
+	font-style: bold;
+}
+
 
 
 
