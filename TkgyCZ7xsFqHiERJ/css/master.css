@@ -4,16 +4,21 @@
 @font-face {
     font-family: Segoe UI; /* Гарнитура шрифта */
     src: url(../fonts/segoeui.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeui.eot); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeui.otf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeui.svg); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeui.woff); /* Путь к файлу со шрифтом */
     src: url(../fonts/segoeuib.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeuib.eot); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeuib.otf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeuib.svg); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeuib.woff); /* Путь к файлу со шрифтом */
     src: url(../fonts/segoeuii.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeui.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeuil.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeuisl.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeuiz.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeuibl.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeuisb.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeuisbi.ttf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/segoeuili.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeuii.eot); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeuii.otf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeuii.svg); /* Путь к файлу со шрифтом */
+    src: url(../fonts/segoeuii.woff); /* Путь к файлу со шрифтом */
+    
    }
 
 
