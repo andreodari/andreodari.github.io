@@ -6,7 +6,7 @@
 	font-family: 'Segoe UI';
 	src: url('fonts/segoeui.eot');
 	src: local('☺'), url('fonts/segoeui.woff') format('woff'), url('fonts/segoeui.ttf') format('truetype'), url('fonts/segoeui.svg') format('svg');
-	font-weight: 400;
+	font-weight: normal;
 	font-style: normal;
 }
 
