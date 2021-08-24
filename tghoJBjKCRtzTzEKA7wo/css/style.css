@@ -372,6 +372,7 @@ color: #739EAF;
 }
 
 .solution_dot {
+    color: transparent;
     position: absolute;
     width: 10px;
     height: 10px;
@@ -823,6 +824,7 @@ color: #000000;
 
 .price-title {
     position: relative;
+    align-items: center;
 }
 
 .price-description {
@@ -2209,6 +2211,7 @@ color: #8AA4AE;
         left: 50%;
         transform: translateX(-50%);
         margin-top: 100px;
+        color: #000;;
     }
 
     .solution__offer {
